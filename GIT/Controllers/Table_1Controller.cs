@@ -1,4 +1,4 @@
-﻿using System;
+ using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.Entity;
@@ -10,7 +10,7 @@ using GIT.Models;
 
 namespace GIT.Controllers
 {
-    public class Table_1Controller : Controller
+    public class Table_1Controllers : Controller
     {
         private GITEntities db = new GITEntities();
 
